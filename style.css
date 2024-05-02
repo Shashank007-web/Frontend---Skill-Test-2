@@ -1,0 +1,130 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; /* Setting default font family */
+}
+
+/* Body Styles */
+body {
+    width: 100%;
+    background-color: #f4f4f2; /* Setting background color */
+    background-image: url(background.jpg); /* Setting background image */
+    background-size: cover; /* Covering entire background */
+    color: #ffffff; /* Setting text color */
+}
+
+/* Heading Section Styles */
+#heading {
+    margin-top: 100px; /* Setting top margin for heading */
+}
+
+/* Navbar Styles */
+#nav {
+    background-color: #FC8019; /* Setting background color for navbar */
+    box-shadow: 0 6px 2px -2px rgba(0, 0, 0, 0.2); /* Adding shadow effect */
+}
+
+.app_name {
+    font-size: 2rem; /* Setting font size for app name */
+    font-weight: bolder; /* Setting font weight for app name */
+    letter-spacing: 2px; /* Adding letter spacing */
+    font-family: Arial, Helvetica, sans-serif; /* Fallback font family */
+}
+
+/* Logo Styles */
+#logo {
+    height: 50px; /* Setting height for logo */
+    width: 50px; /* Setting width for logo */
+    margin: 0 20px 0 10px; /* Setting margins */
+}
+
+/* Search Bar Styles */
+#search-bar {
+    max-width: 600px; /* Setting maximum width for search bar */
+    border-color: #000000; /* Setting border color */
+}
+
+#search-bar input {
+    height: 50px; /* Setting height for input field */
+    border-radius: 5px; /* Adding border radius */
+}
+
+/* Meal Card Styles */
+#card {
+    background-color: #cb202d; /* Setting background color for meal card */
+    padding: 10px; /* Adding padding */
+    color: white; /* Setting text color */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; /* Adding shadow effect */
+    border-radius: 5%; /* Adding border radius */
+}
+
+#card h5 {
+    color: rgb(255, 255, 255); /* Setting text color */
+    font-family: "Sofia", sans-serif; /* Setting font family */
+    font-weight: bold; /* Setting font weight */
+    letter-spacing: 2px; /* Adding letter spacing */
+    text-align: center; /* Centering text */
+    font-size: 1.6rem; /* Setting font size */
+}
+
+#card img {
+    border-radius: 50%; /* Adding border radius to image */
+}
+
+#card-title {
+    color: black; /* Setting text color */
+    font-weight: bold; /* Setting font weight */
+    letter-spacing: 2px; /* Adding letter spacing */
+    font-family: monospace; /* Setting font family */
+    font-size: 1.5rem; /* Setting font size */
+    text-align: center; /* Centering text */
+}
+
+/* Meal Details Container Styles */
+#meal-details {
+    width: 100%; /* Setting width */
+    padding: 20px; /* Adding padding */
+    border-radius: 10px; /* Adding border radius */
+    background-color: #cb202d; /* Setting background color */
+    color: #f4f4f2; /* Setting text color */
+}
+
+#meal-header {
+    width: 70%; /* Setting width */
+    margin: auto; /* Centering horizontally */
+}
+
+#meal-thumbail img {
+    height: 250px; /* Setting height for thumbnail image */
+    width: 250px; /* Setting width for thumbnail image */
+    border-radius: 50%; /* Adding border radius */
+}
+
+#details {
+    display: flex; /* Setting display to flex */
+    flex-direction: column; /* Setting flex direction */
+    align-items: center; /* Centering horizontally */
+    justify-content: center; /* Centering vertically */
+    font-style: italic; /* Setting font style */
+}
+
+#meal-instruction {
+    margin: auto; /* Centering horizontally */
+    text-align: center; /* Centering text */
+}
+
+/* Favourites Offcanvas Styles */
+#favourites-body {
+    background-color: #212529; /* Setting background color */
+}
+
+#fav {
+    margin: 0 20px; /* Setting margins */
+    letter-spacing: 3px; /* Adding letter spacing */
+    font-weight: bold; /* Setting font weight */
+}
